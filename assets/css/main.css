@@ -47,7 +47,11 @@ ul {
   position: relative; }
   @media (max-width: 768px) {
     .landing {
-      background-image: url("../img/hero-bg-phone.jpg"); } }
+      background-image: url("../img/hero-bg-phone.jpg");
+      background-size: contain;
+      height: 50vh;
+      max-width: 100%;
+      margin-top: 3rem; } }
   .landing .overlay {
     position: absolute;
     top: 0;

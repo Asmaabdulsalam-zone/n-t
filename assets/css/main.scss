@@ -66,6 +66,10 @@ ul{
 
     @media (max-width: 768px){
         background-image: url("../img/hero-bg-phone.jpg");
+        background-size: contain;
+        height:50vh;
+        max-width: 100%;
+        margin-top:3rem;
      }
 
     .overlay{
