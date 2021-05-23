@@ -1,0 +1,137 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+  color: #0f1B31; }
+
+h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 10px 0; }
+
+ul {
+  margin-left: 1.5rem; }
+
+.navbar {
+  text-transform: uppercase;
+  background: #0f1B31;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-weight: 600;
+  box-shadow: 0 0 15px 0 rgba(1, 14, 48, 0.733); }
+  .navbar .nav-link {
+    color: #ffffff !important; }
+    .navbar .nav-link:hover {
+      color: #4e98f1 !important;
+      font-size: 1.03rem; }
+  .navbar .nav-link.active {
+    color: #4e98f1 !important; }
+  @media (min-width: 768px) {
+    .navbar {
+      /* height: 4.5rem;*/ } }
+
+.landing {
+  background-image: url("../img/hero-bg.jpg");
+  background-color: #0f1B31;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  @media (max-width: 768px) {
+    .landing {
+      background-image: url("../img/hero-bg-phone.jpg"); } }
+  .landing .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #0f1b3121; }
+
+.caption {
+  text-align: center;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding-bottom: 3rem;
+  width: 90%; }
+  .caption h2 {
+    font-size: 2.7rem;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    line-height: 56px; }
+  .caption h3 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    line-height: 33px; }
+  .caption .btn {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: .5rem 1.1rem;
+    font-size: 0.9rem; }
+
+#about, #services, #intellectual_property, #contact {
+  padding: 100px 0; }
+
+#services {
+  background-color: #eeeeee; }
+  #services li {
+    padding: 8px 0; }
+
+#intellectual_property {
+  padding-bottom: 0; }
+  #intellectual_property .info-list li {
+    display: inline-block;
+    background-color: #0f1B31;
+    color: #ffffff;
+    padding: 16px;
+    margin: 3px 1.5px;
+    font-weight: bold;
+    cursor: pointer; }
+    @media (max-width: 767px) {
+      #intellectual_property .info-list li {
+        font-size: 0.99rem;
+        padding: 14px;
+        text-align: right; } }
+  #intellectual_property .info-list li.selected {
+    color: #4e98f1 !important; }
+  #intellectual_property .info-content > div {
+    padding: 30px 30px 100px 30px;
+    background-color: #eeeeee;
+    line-height: 1.8;
+    margin: 30px -15px 0 -15px; }
+  #intellectual_property .info-content > div:not(:first-of-type) {
+    display: none; }
+
+#contact {
+  padding: 3rem 0 0;
+  line-height: 1.8;
+  color: #ffffff;
+  background: #0f1B31;
+  padding-right: 30px;
+  padding-left: 30px; }
+  #contact h4 {
+    font-size: 1.5rem; }
+  #contact .number {
+    font-family: sans-serif; }
+  #contact .copyright {
+    margin: 2rem 0 0;
+    color: #4e98f1; }
+
+/*# sourceMappingURL=main.css.map */
