@@ -107,7 +107,7 @@ ul {
     @media (max-width: 767px) {
       #intellectual_property .info-list li {
         font-size: 0.99rem;
-        padding: 14px;
+        padding: 12px 14px;
         text-align: right; } }
   #intellectual_property .info-list li.selected {
     color: #4e98f1 !important; }
