@@ -50,7 +50,7 @@ ul {
     padding: 25vh 8vh; }
     @media (max-width: 768px) {
       .landing .overlay {
-        padding: 5vh; } }
+        padding: 4vh 7vh; } }
     .landing .overlay h4 {
       font-size: 1.3rem;
       font-weight: 600;
