@@ -9,7 +9,7 @@ html {
 body {
   background: #fff;
   font-family: "Raleway", sans-serif;
-  color: #0f1B31; }
+  color: #103057; }
 
 h4 {
   font-weight: 700;
@@ -21,11 +21,11 @@ ul {
 
 .navbar {
   text-transform: uppercase;
-  background: #0f1B31;
+  background: #103057;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   font-weight: 600;
-  box-shadow: 0 0 15px 0 rgba(1, 14, 48, 0.733); }
+  box-shadow: 0 0 15px 0 rgba(9, 29, 80, 0.733); }
   .navbar .navbar-brand {
     width: 190px;
     height: auto; }
@@ -42,7 +42,7 @@ ul {
 
 .landing {
   /* background-image: url("../img/hero-bg.jpg");*/
-  background-color: #0f1B31;
+  background-color: #103057;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ ul {
   padding-bottom: 0; }
   #intellectual_property .info-list li {
     display: inline-block;
-    background-color: #0f1B31;
+    background-color: #103057;
     color: #ffffff;
     padding: 16px;
     margin: 3px 1.5px;
@@ -129,7 +129,7 @@ ul {
   padding: 3rem 0 0;
   line-height: 1.8;
   color: #ffffff;
-  background: #0f1B31;
+  background: #103057;
   padding-right: 30px;
   padding-left: 30px; }
   #contact .info-contact {
