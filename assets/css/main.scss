@@ -182,6 +182,16 @@ ul{
     h4{
         font-size: $font-size + 0.5rem;
     }
+    a{
+        color:$secondary_color;
+        text-decoration: underline ;
+        cursor: pointer;
+        font-weight: 600;
+        &:hover{
+            color:$child_color !important;
+            font-size: $font-size + 0.03rem;
+        }
+    } 
     .number{
         font-family: sans-serif;
     }

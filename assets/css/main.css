@@ -136,6 +136,14 @@ ul {
     padding-top: 3rem; }
   #contact h4 {
     font-size: 1.5rem; }
+  #contact a {
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600; }
+    #contact a:hover {
+      color: #4e98f1 !important;
+      font-size: 1.03rem; }
   #contact .number {
     font-family: sans-serif; }
   #contact .copyright {
