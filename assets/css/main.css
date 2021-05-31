@@ -131,19 +131,28 @@ ul {
   color: #ffffff;
   background: #103057;
   padding-right: 30px;
-  padding-left: 30px; }
-  #contact .info-contact {
+  padding-left: 30px;
+  /*a{
+      color:$secondary_color;
+      text-decoration: underline ;
+      cursor: pointer;
+      font-weight: 600;
+      &:hover{
+          color:$child_color !important;
+          font-size: $font-size + 0.03rem;
+      }
+  } */ }
+  #contact .info-contact, #contact .img-contact {
     padding-top: 3rem; }
   #contact h4 {
     font-size: 1.5rem; }
-  #contact a {
-    color: #ffffff;
-    text-decoration: underline;
+  #contact .fa-2x {
+    color: #ffffff !important;
     cursor: pointer;
-    font-weight: 600; }
-    #contact a:hover {
-      color: #4e98f1 !important;
-      font-size: 1.03rem; }
+    margin-right: 1rem;
+    margin-top: -2rem; }
+    #contact .fa-2x:hover {
+      color: #4e98f1 !important; }
   #contact .number {
     font-family: sans-serif; }
   #contact .copyright {

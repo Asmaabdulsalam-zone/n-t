@@ -176,13 +176,13 @@ ul{
     padding-right: 30px;
     padding-left: 30px;
 
-    .info-contact{
+    .info-contact,.img-contact{
         padding-top:3rem;
     }
     h4{
         font-size: $font-size + 0.5rem;
     }
-    a{
+    /*a{
         color:$secondary_color;
         text-decoration: underline ;
         cursor: pointer;
@@ -191,7 +191,16 @@ ul{
             color:$child_color !important;
             font-size: $font-size + 0.03rem;
         }
-    } 
+    } */
+    .fa-2x{
+        color:$secondary_color !important;
+        cursor: pointer;
+        margin-right: 1rem;
+        margin-top: -2rem;
+        &:hover{
+            color:$child_color !important;
+        }
+    }
     .number{
         font-family: sans-serif;
     }
